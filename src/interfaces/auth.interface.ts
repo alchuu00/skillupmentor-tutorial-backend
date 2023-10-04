@@ -1,4 +1,3 @@
-import { string } from '@hapi/joi'
 import { User } from 'entities/user.entity'
 import { Request } from 'express'
 
@@ -14,10 +13,4 @@ export interface RequestWithUser extends Request {
 
 export enum JwtType {
   ACCESS_TOKEN = 'ACCESS_TOKEN',
-  REFRESH_TOKEN = 'REFRESH_TOKEN',
-}
-
-export enum CookieType {
-  ACCESS_TOKEN = 'ACCESS_TOKEN',
-  REFRESH_TOKEN = 'REFRESH_TOKEN',
 }
