@@ -9,6 +9,7 @@ import { AuthModule } from './auth/auth.module'
 import { DatabaseModule } from './database/database.module'
 import { PermissionsGuard } from './permissions/guards/permissions.guard'
 import { PermissionsModule } from './permissions/permissions.module'
+import { ProductsModule } from './products/products.module'
 import { RolesModule } from './roles/roles.module'
 
 @Module({
@@ -23,6 +24,7 @@ import { RolesModule } from './roles/roles.module'
     AuthModule,
     RolesModule,
     PermissionsModule,
+    ProductsModule,
   ],
   controllers: [],
   providers: [
