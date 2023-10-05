@@ -5,8 +5,7 @@ GET http://localhost:8080 HTTP/1.1
 POST http://localhost:8080/auth/register HTTP/1.1
 Content-Type: application/json
 
-{
-  	"first_name": "lol",
+ {  "first_name": "lol",
   	"email": "lolf@gmail.com",
   	"password": "Nejc123!",
   	"confirm_password": "Nejc123!"
@@ -28,11 +27,11 @@ GET http://localhost:8080/auth HTTP/1.1
 POST http://localhost:8080/auth/signout HTTP/1.1
 
 ### PATCH /users/:id
-PATCH http://localhost:8080/users/015f72cc-285a-43b6-b434-d8d35b041265 HTTP/1.1
+PATCH http://localhost:8080/users/c6b07375-27a6-4667-a1a8-fcfb95fefba1 HTTP/1.1
 Content-Type: application/json
 
 {
-  	"role_id": "966ff018-dfcb-49f8-9120-e14ea64f9a7a"
+  	"role_id": "1212c428-fc69-46c1-b549-e13302d0e19f"
 }
 
 ### GET /orders
@@ -68,14 +67,14 @@ Content-Type: application/json
 
 {
   	"name": "Viewer",
-    "permissions": ["fe39138f-d1f5-475d-86b6-9c281457015b"]
+    "permissions": ["8db0c951-11d8-4e5b-ae4a-543af5ccc6c8"]
 }
 
 ### PATCH /roles/:id
-PATCH http://localhost:8080/roles/71c4f9d0-469b-4175-83b5-c322f0e96a07 HTTP/1.1
+PATCH http://localhost:8080/roles/82acbf18-b7cf-4363-b1c1-a76acc8a8579 HTTP/1.1
 Content-Type: application/json
 
 {
   	"name": "Admin",
-    "permissions": ["85977cff-72c8-457a-8e09-a3f488c8df55","effc34cf-f655-4038-8fa2-38d689115db9"]
+    "permissions": ["8db0c951-11d8-4e5b-ae4a-543af5ccc6c8","797c0953-9e29-444e-bcfd-19b1d227ca90"]
 }

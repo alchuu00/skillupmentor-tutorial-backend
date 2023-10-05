@@ -5,7 +5,7 @@ import { CreateDateColumn, PrimaryGeneratedColumn, UpdateDateColumn } from 'type
 export class Base {
   @PrimaryGeneratedColumn('uuid')
   @IsUUID()
-  id: number
+  id: string
 
   @CreateDateColumn()
   @Expose()

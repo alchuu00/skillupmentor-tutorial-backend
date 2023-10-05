@@ -6,7 +6,7 @@ import Logging from 'library/Logging'
 import { AbstractService } from 'modules/common/abstract.service'
 import { Repository } from 'typeorm'
 
-import { CreateUpdateRoleDto } from './dto/create-role.dto'
+import { CreateUpdateRoleDto } from './dto/create-update-role.dto'
 
 @Injectable()
 export class RolesService extends AbstractService {

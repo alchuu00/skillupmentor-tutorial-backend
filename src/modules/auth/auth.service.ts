@@ -47,6 +47,6 @@ export class AuthService {
 
   async getUserId(request: Request): Promise<string> {
     const user = request.user as User
-    return user.id.toString()
+    return user.id
   }
 }
